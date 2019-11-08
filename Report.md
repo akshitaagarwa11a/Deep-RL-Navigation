@@ -36,5 +36,5 @@ Fixed-size buffer to store experience tuples
 * learning rate - lr = 5e-4
 * how often network is updated - C = 4
 ## Results
-The required criterion of an average of 13 points was achieved in less than 500 episodes.
+The required criterion of an average of 13 points was achieved in 515 episodes.
 
