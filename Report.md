@@ -38,3 +38,16 @@ Fixed-size buffer to store experience tuples
 ## Results
 The required criterion of an average of 13 points was achieved in 515 episodes.
 
+## Future Scope
+There are some extensions proposed to improve the performance of DQNs: 
+* Double DQN: Deep Q-Learning tends to overestimate action values. Double Q-Learning has been shown to work well in practice to help with this.
+* Prioritized Experience Replay: This is based on the idea that the agent can learn more effectively from some transitions than from others, and the more important transitions should be sampled with higher probability.
+* Dueling DQN: By replacing the traditional Deep Q-Network (DQN) architecture with a dueling architecture, we can assess the value of each state, without having to learn the effect of each action.</br>
+
+Many more extensions have been proposed, including:</br>
+* Learning from multi-step bootstrap targets (as in A3C - you'll learn about this in the next part of the nanodegree)
+* Distributional DQN
+* Noisy DQN</br>
+
+Using all six extensions together is known as Rainbow method. We can use that or any of the siz methods on the existing DQN 
+to improve it's performance.
