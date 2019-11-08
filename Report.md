@@ -49,5 +49,5 @@ Many more extensions have been proposed, including:</br>
 * Distributional DQN
 * Noisy DQN</br>
 
-Using all six extensions together is known as Rainbow method. We can use that or any of the siz methods on the existing DQN 
-to improve it's performance.
+Using all six extensions together is known as Rainbow method. We can use that or any of the six methods on the existing DQN 
+to improve its performance.
